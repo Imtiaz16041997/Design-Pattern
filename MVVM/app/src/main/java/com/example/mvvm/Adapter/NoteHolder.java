@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mvvm.R;
 
- class NoteHolder extends RecyclerView.ViewHolder {
-    TextView textViewTitle;
-    TextView textViewDescription;
-    TextView textViewPriority;
+ public  class NoteHolder extends RecyclerView.ViewHolder {
+     public TextView textViewTitle;
+     public TextView textViewDescription;
+     public TextView textViewPriority;
 
     public NoteHolder(@NonNull View itemView) {
         super(itemView);
